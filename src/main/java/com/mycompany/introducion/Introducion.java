@@ -13,7 +13,7 @@ public class Introducion {
 
     public static void main(String[] args) {
         
-        String nombre = "Hola mundo";
+        String nombre = "Gualbert";
         int a = 12;
               
         System.out.println("Hello World!");
@@ -23,5 +23,13 @@ public class Introducion {
         //las variables se identifican con la notacion CAMELLO
         String apellido = "Ramos";
         System.out.println(apellido);
+        System.out.println("mi nombre es:\n"+nombre);
+        
+        //CARACTERES ESPECIALES
+        System.out.println("mi nombre es: \n"+nombre); // (\n) se usa para agregar un salto de linea
+        System.out.println("mi nombre es: \t"+nombre); // (\t) se usa para agregar un tabulador
+        System.out.println("ni nombre es: \b"+nombre); // (\b) se usa para volver un espacio
+        System.out.println("mi nombre es: \r"+nombre); // (\r) retorno de carro agrega una nueva linea
+        System.out.println("mi nombre es: \'"+nombre); // (\') agrega una comilla simple como caracter
     }
 }
