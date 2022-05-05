@@ -14,7 +14,14 @@ public class Introducion {
     public static void main(String[] args) {
         
         String nombre = "Hola mundo";
+        int a = 12;
+              
         System.out.println("Hello World!");
         System.out.println(nombre);
+        System.out.println(a+2+nombre); //si los dos primeros son numeros realizara una suma caso contrario concatenara
+        
+        //las variables se identifican con la notacion CAMELLO
+        String apellido = "Ramos";
+        System.out.println(apellido);
     }
 }
